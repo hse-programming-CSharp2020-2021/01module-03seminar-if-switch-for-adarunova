@@ -1,0 +1,7 @@
+C:\Users\Ася и Рита\Source\Repos\01module-03seminar-if-switch-for-adarunova\Task_02\bin\Debug\Task_02.exe.config
+C:\Users\Ася и Рита\Source\Repos\01module-03seminar-if-switch-for-adarunova\Task_02\bin\Debug\Task_02.exe
+C:\Users\Ася и Рита\Source\Repos\01module-03seminar-if-switch-for-adarunova\Task_02\bin\Debug\Task_02.pdb
+C:\Users\Ася и Рита\Source\Repos\01module-03seminar-if-switch-for-adarunova\Task_02\obj\Debug\Task_02.csprojAssemblyReference.cache
+C:\Users\Ася и Рита\Source\Repos\01module-03seminar-if-switch-for-adarunova\Task_02\obj\Debug\Task_02.csproj.CoreCompileInputs.cache
+C:\Users\Ася и Рита\Source\Repos\01module-03seminar-if-switch-for-adarunova\Task_02\obj\Debug\Task_02.exe
+C:\Users\Ася и Рита\Source\Repos\01module-03seminar-if-switch-for-adarunova\Task_02\obj\Debug\Task_02.pdb

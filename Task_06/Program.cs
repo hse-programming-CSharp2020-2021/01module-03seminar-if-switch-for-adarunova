@@ -27,19 +27,36 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Task_06 {
+
 	class Program {
 
-		static void Main(string[] args) {
+		static void Main(string[] args) 
+		{
 			int answer = 0;
 
-			foreach (int level in GetNumbers()) {
-				// TODO : Обработать информацию об очередном этаже. Он лежит в переменной level.
-			}
+			foreach (int level in GetNumbers()) 
+			{
+                if (answer == 0)
+                {
+                    answer = level;
+                }
+                if (answer / 100 > level / 100)
+                {
+                    answer = level;
+                }
+                else if (answer / 100 == level / 100)
+                {
+                    if (answer % 100 > level % 100)
+                    {
+                        answer = level;
+                    }
+                }
+            }
+            Console.WriteLine(answer);
+        }
 
-			// TODO : Вывести получееный этаж.
-		}
-
-		public static List<int> GetNumbers() {
+		public static List<int> GetNumbers() 
+        {
 			return Console.ReadLine().Split(' ').ToList().ConvertAll((x) => int.Parse(x));
 		}
 	}

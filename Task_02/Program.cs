@@ -24,16 +24,22 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Task_02 {
-	class Program {
-		static void Main(string[] args) {
-			int x;
-			// TODO : Ввести X.
 
+	class Program {
+
+		static void Main(string[] args) 
+		{
+			int x = int.Parse(Console.ReadLine());
 			Console.WriteLine(Reverse(x));
+			Console.ReadLine();
 		}
 
-		public static int Reverse(int x) {
-			// TODO : Описать логику метода для получения нового числа.
+		public static int Reverse(int x) 
+		{
+			char[] digits = x.ToString().ToCharArray();
+			Array.Reverse(digits);
+			return int.Parse(new string(digits));
+
 		}
 	}
 }

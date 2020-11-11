@@ -27,23 +27,41 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Task_01 {
+
 	class Program {
-		static void Main(string[] args) {
-			int l;
-			// TODO : Считать l;
+
+		static void Main(string[] args) 
+        {
+			int l = int.Parse(Console.ReadLine());
 
 			int result = CalcS(l);
 
-			// TODO : вывести результат или 0, если его не было получено.
-		}
+            Console.WriteLine(result);
+        }
 
-		public static int CalcS(int l) {
-			int res = -1;
+		public static int CalcS(int l) 
+        {
+            int d = 0;
+            int s = 0;
+            while (s < 10000)
+            {
+                s += l + d++;
+                switch (s)
+                {
+                    case 1111:
+                    case 2222:
+                    case 3333:
+                    case 4444:
+                    case 5555:
+                    case 6666:
+                    case 7777:
+                    case 8888:
+                    case 9999:
+                        return s;
+                }
 
-			// TODO : Написать логику для метода вычисления S и 
-			// если вычислить удалось, поместить в res полученное S.
-
-			return res;
+            }
+            return 0;
 		}
 
 
